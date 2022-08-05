@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: finalexamq6
+  labels:
+    app: pages
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: pages
+  template:
+    metadata:
+      labels:
+        app: pages
+    spec:
+      containers:
+        - name: labexam2
+          image: jineshathumber/labexam1
