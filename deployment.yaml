@@ -16,4 +16,4 @@ spec:
     spec:
       containers:
         - name: labexam2
-          image: jineshathumber/labexam1
+          image: jineshathumber/labexam2
